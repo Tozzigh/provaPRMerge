@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./footer.js";
 import Jumbotrom from "./jumbotron.jsx";
 
 import Navbar from "./navbar.jsx";
@@ -7,9 +8,8 @@ import Card from "./card.js";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 const Home = () => {
-
 	return (
-		<div className="text-center">
+		<div className="text-center h-100">
       <Navbar />
       <Jumbotrom />
 			<div className="container">
@@ -20,6 +20,7 @@ const Home = () => {
 					<Card/>
 				</div>
 			</div>				
+      <Footer/>
 		</div>
 	);
 };
